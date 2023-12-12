@@ -2,6 +2,7 @@
 
 ![Screenshot](assets/img/front.PNG)
 
+>
 * Pequena parte retirada de um projeto de um aplicativo de viagens desenvolvido.
 * Se resume a um histórico de viagens de um motorista, mostrando seus ganhos e dados das viagens realizadas no dia selecionado no calendário.
 * Originalmente, o aplicativo faria uma conexão ao banco de dados ou api para recuperar os dados das viagens, todos esses dados estão armazenados em arquivos json para facilitar o run local, sem mudar as funcionalidades dinâmicas do projeto.
