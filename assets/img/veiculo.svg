@@ -1,0 +1,15 @@
+<svg id="icons_ID_contact_Copy" data-name="icons/ID contact Copy" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="23" height="23" viewBox="0 0 23 23">
+  <defs>
+    <clipPath id="clip-path">
+      <path id="Shape" d="M17.753,15.333H15.885a.948.948,0,0,1-.934-.958v-1.6H4.984v1.6a.948.948,0,0,1-.934.958H2.181a.948.948,0,0,1-.934-.958V11.911a2.589,2.589,0,0,1-.623-1.689V8.306A2.573,2.573,0,0,1,1.9,6.075l0-.006H.779a.467.467,0,0,1-.443-.328L.025,4.784a.481.481,0,0,1,.069-.438.46.46,0,0,1,.375-.193H2.6l.306-.837A5.069,5.069,0,0,1,4.735.91,4.875,4.875,0,0,1,7.574,0H12.36A4.875,4.875,0,0,1,15.2.91a5.069,5.069,0,0,1,1.827,2.406l.306.837h2.134a.459.459,0,0,1,.375.193.481.481,0,0,1,.069.437l-.312.958a.467.467,0,0,1-.443.328H18.033l0,.006a2.572,2.572,0,0,1,1.276,2.231v1.917a2.591,2.591,0,0,1-.623,1.689v2.463A.948.948,0,0,1,17.753,15.333ZM16.508,7.986a1.992,1.992,0,0,0-1.193.694A2.072,2.072,0,0,0,14.639,9.9c0,.563.725.641,1.509.641h.36a1.278,1.278,0,0,0,0-2.556Zm-13.082,0a1.278,1.278,0,0,0,0,2.556h.359a3.839,3.839,0,0,0,1.008-.1c.338-.1.5-.277.5-.543A2.632,2.632,0,0,0,3.426,7.986Zm4.148-5.43A2.506,2.506,0,0,0,5.241,4.214L4.679,5.75H15.255l-.562-1.536A2.506,2.506,0,0,0,12.36,2.556Z" transform="translate(0 0)"/>
+    </clipPath>
+  </defs>
+  <rect id="icons_ID_contact_Copy_background" data-name="icons/ID contact Copy background" width="23" height="23" fill="rgba(0,0,0,0)"/>
+  <rect id="Rectangle" width="23" height="23" fill="rgba(255,0,0,0)"/>
+  <g transform="translate(1.533 3.833)" clip-path="url(#clip-path)">
+    <g id="Colors_Primary" data-name="Colors/Primary" transform="translate(-1.533 -3.833)">
+      <rect id="Colors_Primary_background" data-name="Colors/Primary background" width="23" height="23" fill="rgba(0,0,0,0)"/>
+      <rect id="Rectangle_3" data-name="Rectangle 3" width="23" height="23" fill="#fff"/>
+    </g>
+  </g>
+</svg>

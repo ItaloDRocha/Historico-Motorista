@@ -1,0 +1,14 @@
+{
+    "partida": "Av. Cristiano Machado, 4000a - Uni\u00e3o, Belo Horizonte - MG, 31910-900, Brasil",
+    "destino": "Av. Waldomiro Lobo, 2150 - Heli\u00f3polis, Belo Horizonte - MG, 31741-440, Brasil",
+    "categoria": "Padr\u00e3o",
+    "distancia": "5,0 km",
+    "tempo": "14 minutos",
+    "card": "49e43dbe-cc6d-4580-b766-131fa3565a75",
+    "tipo": "cartao",
+    "data_solicita": "23\/02\/2022 13:34:33",
+    "id_passageiro": "41",
+    "price": "R$ 15,53",
+    "status": "cancelada pelo passageiro",
+    "data_alteracao": "23\/02\/2022 16:43:20"
+}

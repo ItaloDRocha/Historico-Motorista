@@ -1,0 +1,16 @@
+{
+    "partida": "Av. Cristiano Machado, 4000a - Uni\u00e3o, Belo Horizonte - MG, 31910-900, Brasil",
+    "destino": "Belo Horizonte : pizzaria guarani 2",
+    "categoria": "Padr\u00e3o",
+    "distancia": "5,0 km",
+    "tempo": "14 minutos",
+    "card": "49e43dbe-cc6d-4580-b766-131fa3565a75",
+    "tipo": "Cr\u00e9dito",
+    "data_solicita": "15\/02\/2022 12:33:37",
+    "id_passageiro": "41",
+    "price": "R$ 15,53",
+    "status": "cancelada pelo passageiro",
+    "id_motorista": "218",
+    "PaymentId": "cbc9b35a-30a9-4903-afaa-1dfc6a2812b0",
+    "data_alteracao": "16\/02\/2022 20:13:05"
+}

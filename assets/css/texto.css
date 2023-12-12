@@ -1,0 +1,191 @@
+/* Fontes */
+.h1{
+    color: black;
+    font-size: 18px;
+    margin-top: 5px;
+}
+
+.h1a{
+    color: black;
+    font-size: 18px;
+    margin-top: 5px;
+    margin-left: -10px;
+}
+
+.h2{
+    font-size: 14px;
+    color: black;
+}
+
+.h2a{
+    font-size: 18px;
+    color: black;
+}
+
+.h2b{
+    font-size: 22px;
+    color: black;
+}
+
+.h3{
+    color: black;
+    font-size: 11px;
+}
+
+.h3a{
+    color: black;
+    font-size: 11px;
+}
+
+.h3b{
+    font-size: 11px;
+}
+
+.h3c{
+    font-size: 14px;
+}
+
+.h3d{
+    font-size: 11px;
+    color: rgb(212, 212, 212);
+}
+
+.h4{
+color: white;
+font-size: 14px;
+line-height: 2;
+margin-top: 10px;
+}
+
+.h4a{
+    font-size: 14px;
+}
+
+.h4b{
+    font-size: 11px;
+}
+
+.h4c{
+    font-size: 18px;
+    line-height: 0.5;
+}
+
+.h4d{
+    color: white;
+    font-size: 44px;
+    line-height: 2;
+    font-weight: 500;
+    }
+
+.h5{
+color: rgb(141, 124, 143);
+font-size: 11px;
+margin-top: -10px;
+}
+
+.h5a{
+    color: rgb(26, 26, 26);
+    font-size: 16px;
+    }
+
+.h5pag{
+    background-color: rgb(80, 58, 131);
+    color: rgb(255, 255, 255);
+    font-size: 11px;
+    height: 15px;
+    width: max-content;
+    border-radius: 5px;
+    text-align: center;
+    padding-left: 3px;
+    padding-right: 3px;
+    }
+
+    .h5pag1{
+    background-color: rgb(80, 58, 131);
+    color: rgb(255, 255, 255);
+    font-size: 11px;
+    height: 15px;
+    width: 70px;
+    border-radius: 5px;
+    text-align: center;
+    }
+
+.h5dist{
+    color: rgb(201, 201, 201);
+    font-size: 14px;
+    }
+    
+.h7{
+    font-size: 11px;
+}
+
+.h8{
+    font-size: 24px;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+.h9{
+    font-size: 14px;
+    color: rgb(49, 49, 49);
+}
+
+.h10{
+    font-size: 11px;
+    color: black;
+}
+
+.h11{
+    font-size: 9px;
+    color: rgb(155, 155, 155);
+}
+
+.h12{
+    font-size: 32px;
+}
+
+.h13{
+    font-size: 18px;
+}
+
+.h14{
+    font-size: 11px;
+}
+
+.h15{
+    font-size: 32px;
+    color: rgb(80, 58, 131);
+    font-weight: 400;
+    padding-bottom: 1px;
+    border-bottom: 2px solid rgb(180, 180, 180);
+}
+
+.h16{
+    font-size: 11px;
+    line-height: 0.5;
+}
+
+.h16a{
+    font-size: 11px;
+    line-height: 0.5;
+    color: #22B7CF;
+}
+
+.h16b{
+    font-size: 14px;
+    line-height: 0.2;
+    color: #0a0a0a;
+    padding-bottom: -10px;
+    border-bottom: 1px solid rgb(80, 58, 131);
+    font-weight: 400;
+}
+
+.h16c{
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.h17{
+    font-size: 24px;
+    color: rgb(80, 58, 131);
+}
