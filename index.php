@@ -58,7 +58,7 @@ $id_motorista = "218";
 
                 $data_jsificada = str_replace('/', '-', $data_jsificada);
 
-                $data_jsificada = date('d-m-Y', strtotime("-$count day"));
+                $data_jsificada = date('d-m-Y', strtotime("-$count day")); //Remova essa linha para fazer ajustes manuais nas datas dos jsons
 
                 $data_jsificada = str_replace('-', '/', $data_jsificada);
 
