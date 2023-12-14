@@ -27,9 +27,8 @@ $id_motorista = "218";
         include "assets/css/texto.css";
         ?>
     </style>
-    <title>Histórico</title>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-
+    <title>Histórico</title>
 </head>
 
 <body>
@@ -117,12 +116,10 @@ $id_motorista = "218";
                             <h4 class="h4a"><?= $date_dia_n ?></h4>
                         </div>
                     <?php endif ?>
-
-
                 <?php endwhile ?>
-
             </div>
         </div>
+
         <div class="grid-6" style="margin-top: 80px">
             <div class="carro">
                 <div class="grid-7">
@@ -204,53 +201,7 @@ $id_motorista = "218";
 
         </div>
 
-
-        <!-- <div class="corridas2">
-            <div class="grid-8">
-                <div class="foto">
-
-                </div>
-                <div class="nome">
-                    <h4 class="h5a">Guilherme Ferreira</h4>
-                    <h4 class="h5pag1">Dinheiro</h4>
-                </div>
-                <div class="distancia">
-                    <h5 class="h5a">R$ 85,00</h5>
-                    <h5 class="h5dist">9,1 KM</h5>
-                </div>
-            </div>
-            <div class="corrida-info">
-                <h3 class="h3d">Local de Saída:</h3>
-                <h4 class="h3c">Rua Botucatum, 1795</h4>
-                <hr>
-                <h3 class="h3d">Local de Destino:</h3>
-                <h4 class="h3c">Av Lapa, 2500</h4>
-            </div>
-            <br><br>
-            <div class="grid-8">
-                <div class="foto">
-
-                </div>
-                <div class="nome">
-                    <h4 class="h5a">Gabriel F.</h4>
-                    <h4 class="h5pag1">Dinheiro</h4>
-                </div>
-                <div class="distancia">
-                    <h5 class="h5a">R$ 60,00</h5>
-                    <h5 class="h5dist">42,8 KM</h5>
-                </div>
-            </div>
-            <div class="corrida-info">
-                <h3 class="h3d">Local de Saída:</h3>
-                <h4 class="h3c">Av. Jorge Rodrigues, 100</h4>
-                <hr>
-                <h3 class="h3d">Local de Destino:</h3>
-                <h4 class="h3c">Av Carlos Lacerda, 812</h4>
-            </div>
-        </div> -->
-
     </div>
-
 
 
     <script>
@@ -346,79 +297,7 @@ $id_motorista = "218";
 
                 })
             });
-            // console.log(json)
-
-            //função utilizada posteriormente com conexão ao banco de dados
-
-            // json.forEach((element, index) => { //some é a mesma coisa que foreach, porem da pra quebrar a repetição com um return true
-
-            //     var data_separada = element.data_finaliza.split(' ')
-            //     console.log("encontrou", data_separada[0], "procurando por", data_btn)
-            //     if (data_separada[0] == data_btn && element.status == "finalizada") {
-
-            //         var id_cliente = element.id_passageiro;
-            //         var preco = element.price.split(' ')[1];
-            //         $.post("proc/get-dados-passageiro-proc.php", {
-            //                 id_cliente
-            //             },
-            //             function(data, textStatus, jqXHR) {
-
-            //                 var dados = JSON.parse(data); //Dados do passageiro
-            //                 console.log(dados)
-            //                 dados = dados[0];
-            //                 var nome = dados.nome;
-            //                 var img_passageiro = dados.img;
-
-
-            //                 preco = preco.replace(".", ",");
-
-            //                 $(".corridas").append(`
-            //                     <div class='grid-8'>
-            //                             <div class='foto'>
-            //                                 <img src="${img_passageiro}" alt="">
-            //                             </div>
-            //                         <div class='nome'>
-            //                             <h4 class='h5a'> ${nome}</h4>
-            //                             <h4 class='h5pag'> ${element.tipo}</h4>
-            //                         </div>
-            //                         <div class='distancia'>
-            //                             <h5 class='h5a'>R$  ${preco}</h5>
-            //                             <h5 class='h5dist'> ${element.distancia}</h5>
-            //                         </div>
-            //                     </div>
-            //                     <div class='corrida-info'>
-            //                         <h3 class='h3d'>Local de Saída:</h3>
-            //                         <h4 class='h3c'> ${element.partida}</h4>
-            //                         <hr>
-            //                         <h3 class='h3d'>Local de Destino:</h3>
-            //                         <h4 class='h3c'> ${element.destino}</h4>
-            //                     </div>
-            //                 `)
-
-
-            //             }
-            //         );
-
-            //         corridas_feitas++;
-            //         precoParse = preco.replace(",", "."); //Prepara o preco para ser formatado de string para númerico
-            //         receita_total += parseFloat(precoParse)
-
-
-            //         if (index_json == json.length - 1) { //Quando for o ultimo elemento da repeticao, executa essa funcao
-
-            //             atualizarDados(corridas_feitas, receita_total);
-            //             index_json++;
-            //         }
-
-            //     } else {
-            //         atualizarDados(corridas_feitas, receita_total);
-            //         index_json++;
-            //     }
-
-            // })
-
-
-
+           
             function atualizarDados(corridas_feitas, receita_total) { //Atualiza os valores de acordo com o dia clicado
                 // console.log("executou a funcao de atualizar dados")
 
@@ -430,7 +309,6 @@ $id_motorista = "218";
         });
     </script>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js"></script>
 </body>
